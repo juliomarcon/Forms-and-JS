@@ -1,0 +1,19 @@
+body{
+    background-color: #b9bbce;
+    color: rgb(17,121,212);
+}
+
+form,input,select,textarea{
+    margin:1px;
+    padding:5px;
+    color:black;
+}
+
+fieldset{
+    border-width: thin;
+    border-style: solid;
+    border-color: #007373;
+    width: 800px;
+    align-items: center;
+}
+

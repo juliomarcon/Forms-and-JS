@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="stilo.css">
+</head>
+<body>
+    
+    <fieldset>
+        <legend>Meus dados</legend>
+        
+            <form name="dados" action="mailto:juliomarcon96@gmail.com" method="post">
+                Digite seu nome: <input type="text" name="nome" value="" size="80" maxlength="30"><br><br>
+                Digite a sua senha: <input type="password" name="senha" value="" size="80" max="30"><br><br>
+                <br>
+                <p>Escolha o estado em que reside:</p>
+                <input type="radio" name="estado" value="RS"> Rio Grande do Sul<br>
+                <input type="radio" name="estado" value="SC"> Santa Catarina<br>
+                <input type="radio" name="estado" value="PR"> Paraná<br>
+                <p>Selecione seu prato preferido</p>
+                <input type="checkbox" name="food" value="pizza"> Pizza<br>
+                <input type="checkbox" name="food" value="massa"> Massa<br>
+                <input type="checkbox" name="food" value="carne"> Carne<br>
+                <br><br>
+                <input type="button" name="send" value="Enviar Dados">
+                <input type="reset" name="reset" value="Limpar Dados">
+            </form>
+    </fieldset>
+   
+
+</body>
+</html>
